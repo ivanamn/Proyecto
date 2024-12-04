@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
+</head>
+
+<body class="bg-black">
+  <header class="pb-3 pt-2">
+    <nav class="navbar navbar-expand-lg bg-transparent border-white border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-3 fw-bold text-warning" href="/">CASAAAAAA BOLIVIANAAA Restaurant</a>
+        <button class="navbar-toggler bg-warning text-white-50" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="d-grid nav-item mx-3 py-2">
+              <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="d-grid nav-item mx-3 py-2">
+              <a class="nav-link text-white-50" href="#Nosotros">Nosotros</a>
+            </li>
+            <li class="d-grid nav-item mx-3 py-2">
+              <a class="nav-link text-white-50" href="#Productos">Productos</a>
+            </li>
+            <li class="d-grid nav-item mx-3 py-2">
+              <a class="nav-link text-white-50" href="#Contacto">Contacto</a>
+            </li>
+            <li class="d-grid nav-item mx-3 py-2">
+              <a class="btn btn-dark position-relative" href="/"> Login
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="d-grid nav-item mx-3 py-2">
+              <a class="btn btn-dark position-relative" href="/cariet.html"> Carrito
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-cart3 text-warning" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  + <span>120</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container py-2">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active"
+            aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+            class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+            class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"
+            class=""></button>
+        </div>
+        <div class="carousel-inner mx-auto w-100">
+          <div class="carousel-item active">
+            <img src="https://www.boliviaentusmanos.com/amarillas1/businesscard/imagenes/el-pahuichi-i-1.jpg"
+              class="rounded mx-auto d-block w-75" alt="...">
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="text-secondary fw-bold">Desayunos</h1>
+                <p class="text-dark text-bg-light fs-5 p-1 mx-0">inicia con un buen desayuno para que tengas un buen dia.</p>
+                <p><a class="btn btn-primary" href="#">Realiza tu pedido</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://comidasbolivianas.org/wp-content/uploads/2020/06/Comidas-tipicas-de-cochabamba-bolivia-480x270.jpg"
+              class="rounded mx-auto d-block w-75" alt="...">
+            <div class="container-fluid">
+              <div class="carousel-caption text-start">
+                <h1 class="text-secondary fw-bold">Almuerzos</h1>
+                <p class="text-light  fs-5 p-1 mx-0">Prueba nuestra gran variedad de almuerzos deliciosos para llenarte el estomago</p>
+                <p><a class="btn btn-primary" href="#">Realiza tu pedido</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://cdn.bolivia.com/sdi/2021/11/23/chicha-taquina-desarrollo-bolivia-y-tradicion-ancestral-972963.jpg"
+              class="rounded mx-auto d-block w-75" alt="...">
+            <div class="container-fluid">
+              <div class="carousel-caption text-start">
+                <h1 class="text-secondary fw-bold">Refrescos y Bebidas</h1>
+                <pclass="text-light fs-5 p-1 mx-0">Disfruta de las mejores bebidas de la ciudad de Cochabamba</p>
+                  <p><a class="btn btn-primary" href="#">Realiza tu pedido</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://minichef.net/wp-content/uploads/2020/05/helado-de-leche-y-canela.jpg"
+              class="rounded mx-auto d-block w-75" alt="...">
+            <div class="container-fluid">
+              <div class="carousel-caption text-start">
+                <h1 class="text-secondary fw-bold">Postres</h1>
+                <p class="text-secondary text-bg-light fs-5 p-1 mx-0">Prueba nuestra comida nacional y postres nacionales</p>
+                <p><a class="btn btn-primary" href="#">Realiza tu pedido</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Nosotros" class="py-5 mb-5 container">
+    <div class="container p-4 rounded-3 shadow" style="background-color:rgb(68, 69, 70) ;">
+      <div class="mb-4  shadow">
+        <div class="container-fluid">
+          <h1 class="display-5 fw-bold pt-4 pb-5 text-white">
+            Conoce sobre nosotros
+          </h1>
+          <div class="py-3">
+            <p class="col-12 fs-5 d-flex text-white-50">
+              Somos un restaurant que te ofrecera todo tipo de comida y platos desde desayunos almuerzos y cenas romanticas.. ven a probar nuestros deliciosos platos y postres trae a toda tu familia y te hacemos un descuento disfruta de nuestro extenso menu y todo lo que te ofrece ofreciendo el mejor traro y los mejores sabores al paladar al buen cliente exigente te esperamos.
+            </p>
+            <p class="col-12 fs-5 d-flex text-white-50">
+              Tambien hacemos deliveries a todo el departamento verifique
+              nuestros menus </p> </br> <a type="button" class="btn btn-warning text-secondary"
+              href="#Contacto">Contacto</a>
+             
+            .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section id="Productos">
+    <div class="alert position-sticky top-0 hide col-3 alert-warning bg-success border-white border-3 text-center" role="alert">
+      <p class="m-0 p-0 text-white fw-bold">Producto Añadido al carrito!</p> 
+    </div>
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <P class="display-6 text-white text-center tipo-pedido">DESAYUNOS</P>
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Desayunos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 1</h5>
+            <img src="img/API CON PASTEL.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">API CON PASTEL</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 18</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Desayunos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 2</h5>
+            <img src="img/SANDWICH DE PAVITA.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">SANDWICH DE PAVITA</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 15</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Desayunos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 3</h5>
+            <img src="img/ZONZO CON CAFE.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">ZONZO CON CAFE</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 11</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Desayunos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 4</h5>
+            <img src="img/JUGOS DE FRUTAS.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">JUGOS</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 13</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <P class="display-6 text-white text-center tipo-pedido">ALMUERZOS</P>
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Almuerzos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 1</h5>
+            <img src="img/PIQUE MACHO.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">PIQUE MACHO</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 28</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Almuerzos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 2</h5>
+            <img src="img/CHARQUE.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">CHARQUE</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 35</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Almuerzos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 3</h5>
+            <img src="img/CHICHARRON DE CERDO.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">CHICHARRON DE CERDO</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 50</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Almuerzos</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 4</h5>
+            <img src="img/SOPAS BOLIVIANAS.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">SOPAS</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 12</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <P class="display-6 text-white text-center tipo-pedido">BEBIDAS</P>
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Bebidas</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 1</h5>
+            <img src="img/MOCOCHINCHI.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">MOCOCHINCHI</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 6</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Bebidas</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 2</h5>
+            <img src="img/CERVEZAS.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">CERVEZA PACEÑA</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 25</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Bebidas</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 3</h5>
+            <img src="img/VINOS.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">VINOS</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 65</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Bebidas</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 4</h5>
+            <img src="img/GASEOSAS.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">GASEOSAS</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 15</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <P class="display-6 text-white text-center tipo-pedido">POSTRES</P>
+      <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Postres</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 1</h5>
+            <img src="img/HELADOS.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">HELADOS ARTESANALES</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 12</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Postres</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 2</h5>
+            <img src="img/BUDIN.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">BUDIN</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 15</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Postres</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 3</h5>
+            <img src="img/GELATINA.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">GELATINI CON CHANTILLIN</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 10</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+            <h5 class="pt-2 text-center text-warning tipo-pedido d-none">Postres</h5>
+            <h5 class="card-title pt-2 text-center text-warning">Menu - No. 4</h5>
+            <img src="img/PIE DE LIMON.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-white-50 small description">PIE DE LIMON</p>
+              <h5 class="text-warning text-center">Precio: Bs<span class="precio"> 11</span></h5>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning button">Añadir a Carrito</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Contacto" class="container rounded-3 pb-4 my-4" style="background-color:rgb(68, 69, 70) ;">
+    <h1 class="display-6 text-white text-center">
+      CONTACTANOS
+    </h1>
+    <div class="container w-50 p-4 rounded-3 shadow">
+      <div class="row justify-content-center">
+        <form action="https://formspree.io/f/mwkzqyey" method="post">
+            <a class="text-decoration-none fs-2 fw-bold text-warning" href="/">CASAAAA BOLIVIANAAAAA RESTAURANT</a>
+          <div class="form-floating m-4">
+            <input type="text" class="form-control" id="floatingInput" name="nombres">
+            <label for="nombre">Nombres</label>
+          </div>
+
+          <div class="form-floating m-4">
+            <input type="text" class="form-control" id="floatingInput" name="apellidos">
+            <label for="apellidos">Apellidos</label>
+          </div>
+
+          <div class="form-floating m-4">
+            <input type="number" class="form-control" id="floatingPassword" name="celular">
+            <label for="celular">Celular</label>
+          </div>
+
+          <div class="form-floating m-4">
+            <input type="email" class="form-control" id="floatingPassword" name="email">
+            <label for="email">Email</label>
+          </div>
+
+          <div class="form-floating m-4">
+            <textarea name="comentarios" id="" cols="60" rows="10" name="comentarios"></textarea>
+            <label for="comentarios">Comentarios</label>
+          </div>
+          <div class="form-floating m-4 text-center">
+            <button class="w-75 btn btn-warning text-secondary" type="submit">Enviar datos</button>
+            <p class="mt-5 mb-3 text-muted text-center">© 2002–2024</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark p-3 mt-5">
+    <p class="text-center m-0 text-muted">BOLVIA-COCHABAMBA - VARIEDAD DE COMIDAS</p>
+  </footer>
+
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+</body>
+
+</html>

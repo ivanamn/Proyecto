@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body class="container">
+    <div class="w-100" >
+        <div class="alert position-sticky top-0 hide col-3 alert-warning bg-success border-white border-3 text-center" role="alert">
+            <p class="m-0 p-0 text-white fw-bold">Producto Añadido al carrito!</p> 
+          </div>
+        <div class="carrito" id="pills-contact">
+            <p class="text-warning display-5 text-center">Productos Seleccionados</p>
+                    <table class="table table-dark table-hover" >
+                        <thead>
+                            <tr>
+                                <th class="text-primary">No. </th>
+                                <th class="text-primary">Productos </th>
+                                <th class="text-primary">Tipo Producto </th>
+                                <th class="text-primary">Precio </th>
+                                <th class="text-primary">Cantidad </th>
+                                <th class="text-primary">Acciones </th>
+                                <th class="text-primary">Total Item</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="col-4 text-warning">Total a Pagar</td>
+                                <td class="col-2 text-warning text-center">150</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                <div class="row justify-content-center">
+                    <a class="btn btn-outline-warning col-5 m-1" href="/">Regresar al Home</a>
+                    <button type="button" class="btn btn-outline-success col-5 m-1 disabled">Procesar Pedido</button>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <footer class="bg-dark p-3 my-5">
+            <p class="text-center m-0 text-muted">BOLVIA-COCHABAMBA - VARIEDAD DE COMIDAS</p>
+        </footer>
+    </div>
+    <section id="Pago" class="container rounded-3 pb-4 my-4" style="background-color:rgb(68, 69, 70);">
+        <h1 class="display-6 text-white text-center">PAGO</h1>
+        <div class="text-center">
+            <p class="text-white">Escanea el código QR para realizar el pago:</p>
+            <img src="img/Commons_QR_code.png" alt="Código QR de pago" class="img-fluid" style="max-width: 200px;">
+        </div>
+    </section>
+
+<script src="./js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+</body>
+
+</html>
